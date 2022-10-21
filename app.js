@@ -6,6 +6,7 @@ var logger = require("morgan");
 var mongoose = require("mongoose");
 const compression = require("compression");
 const helmet = require("helmet");
+require("dotenv").config();
 
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
@@ -13,8 +14,7 @@ var catalogRouter = require("./routes/catalog");
 var app = express();
 
 // mongodb
-const mongoDB =
-  "mongodb+srv://kartohan:1111@library.v8302er.mongodb.net/library?retryWrites=true&w=majority";
+const mongoDB = process.env.MONGODB_URI;
 mongoose
   .connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((res) => console.log("connected to db"))
