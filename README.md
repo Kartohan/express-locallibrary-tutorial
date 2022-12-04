@@ -23,6 +23,9 @@ What i used:
 8. Heroku for deploying.
 9. Git for version contol.
 
-Live: https://intense-sea-59045.herokuapp.com/catalog
+Live: https://express-locallibrary-tutorial-production-8ac2.up.railway.app
 
 Also, if you look at the code, you will see there "var" as a variable declaration, this was also due to the fact that I sometimes turned on the Russian version of the lesson and it still uses this variable declaration.
+
+Preview
+![screencapture-express-locallibrary-tutorial-production-8ac2-up-railway-app-catalog-2022-12-04-16_50_51](https://user-images.githubusercontent.com/99285514/205497550-e74d9ab2-bae0-422f-9afe-ad8cd91edcf0.png)
